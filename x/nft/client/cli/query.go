@@ -150,7 +150,7 @@ $ %s query %s nfts <class-id> --owner=<owner>
 				return err
 			}
 
-			owner, err := cmd.Flags().GetString(FlagOwner)
+			owner, err := cmd.Flags().GetString(FlagOwner /**/)
 			if err != nil {
 				return err
 			}
